@@ -243,21 +243,21 @@ sizeof(sd000),USB_DESCRIPTOR_STRING,{0x0409
 }};
 
 //Manufacturer string descriptor
-ROM struct{BYTE bLength;BYTE bDscType;WORD string[10];}sd001={
+ROM struct{BYTE bLength;BYTE bDscType;WORD string[11];}sd001={
 sizeof(sd001),USB_DESCRIPTOR_STRING,
-{'B','I','O','-','I','T',' ','L','A','B'
+{'L','A','B','G','E','N','O','M','I','C','S'
 }};
 
 //Product string descriptor
-ROM struct{BYTE bLength;BYTE bDscType;WORD string[21];}sd002={
+ROM struct{BYTE bLength;BYTE bDscType;WORD string[9];}sd002={
 sizeof(sd002),USB_DESCRIPTOR_STRING,
-{'Q','u','i','c','k',' ','M','i','c','r','o','P','C','R',' ','S','y','s','t','e','m'
+{'L','a','b','G','e','n','i','u','s'
 }};
 
 //Device Serial Number String descriptor
 ROM struct{BYTE bLength;BYTE bDscType;WORD string[11];}sd003={
 sizeof(sd003),USB_DESCRIPTOR_STRING,
-{'Q','u','P','C','R','0','0','0','0','0','4'
+{'L','G','N','2','0','0','0','0','0','0','1'
 }};
 
 /*
